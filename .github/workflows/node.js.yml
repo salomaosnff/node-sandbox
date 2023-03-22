@@ -28,3 +28,7 @@ jobs:
         cache: 'yarn'
     - run: yarn
     - run: yarn build
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist
