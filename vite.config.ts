@@ -8,6 +8,7 @@ import monaco from 'vite-plugin-monaco-editor';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [vue(), vueJsx(), monaco({})],
   resolve: {
     alias: {
