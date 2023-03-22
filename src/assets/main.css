@@ -1,0 +1,30 @@
+@import './base.css';
+@import 'xterm/css/xterm.css';
+
+#app {
+  overflow: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
