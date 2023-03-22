@@ -44,7 +44,7 @@ function updateFile(filename: string) {
   editor.setModel(model)
 }
 
-watch(() => props.filename, updateFile)
+watch(() => props.filename, (file) => file && updateFile(file))
 </script>
 
 <template>
